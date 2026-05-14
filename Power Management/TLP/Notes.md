@@ -1,0 +1,13 @@
+Firstly just a list of the sources I used to learn about and set up TLP:
+- https://www.google.com/search?q=devuan+enable+power+profiles+daemon
+- **PPD doesn't work on Devuan** (due to dbus dependency) -- https://dev1galaxy.org/viewtopic.php?id=6949 (Nov 2024) 
+- https://www.google.com/search?q=power+profiles+tlp
+- https://wiki.archlinux.org/title/TLP
+- https://forum.endeavouros.com/t/tlp-or-power-profiles-for-battery-life/37921
+- https://universal-blue.discourse.group/t/tlp-over-the-actual-power-profile/4604
+- **ppd conflicts with tlp** - https://linrunner.de/tlp/faq/ppd.html 
+- https://www.google.com/search?q=how+to+set+up+tlp+with+sysv
+- https://www.google.com/search?q=integrate+tlp+with+kde+power+settings
+- https://www.reddit.com/r/kde/comments/1b07kiy/tlp_and_some_of_the_kde_power_settings_are_in/ (Feb 2024)
+- https://www.reddit.com/r/linux/comments/1pc0que/tlp_190_adds_guifriendly_power_profile_support/ (Dec 2025)
+- 
