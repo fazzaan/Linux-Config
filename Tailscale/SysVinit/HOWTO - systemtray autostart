@@ -1,0 +1,9 @@
+## Add the Tailscale System Tray to Graphical Login
+
+_Gemini helped me with this_  
+
+> Tailscale includes a built-in cross-platform system tray feature. In a desktop environment managed without systemd (like Devuan), you can launch this visual tray immediately after logging into your desktop session by creating an XDG autostart entry.  
+
+### Step 1. Create the Systray Desktop Entry
+Create a text file targeted for desktop startup:
+```nano ~/.config/autostart/tailscale-systray.desktop```
