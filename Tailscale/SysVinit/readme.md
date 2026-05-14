@@ -88,5 +88,10 @@ sudo tailscale up
 
 Follow the printed URL in your terminal to authenticate and link the Devuan machine to your Tailscale account.  
 
-> On Linux, once you authenticate tailscale up successfully one time, the Tailscale daemon permanently remembers that authenticated state.You do not need to execute tailscale up on every boot. Simply ensuring that the tailscaled service starts up automatically via your SysVinit setup will restore your network connectivity instantly.
+> [!NOTE]
+> On Linux, once you authenticate tailscale up successfully one time, the Tailscale daemon permanently remembers that authenticated state.
+> You do not need to execute tailscale up on every boot. Simply ensuring that the tailscaled service starts up automatically via your SysVinit setup will restore your network connectivity instantly.
+
+> [!TIP]
+> If you ever need to alter connection parameters automatically (such as enforcing specific exit nodes or routing settings on boot), update your /etc/init.d/tailscaled script to append those parameters directly to the daemon launch, or modify the initial configuration manually.
 
